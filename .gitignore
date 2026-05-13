@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models
+data/raw/*
+data/processed/*
+models/*
+
+# Keep folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# System files
+.DS_Store
