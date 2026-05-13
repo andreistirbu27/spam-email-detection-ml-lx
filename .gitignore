@@ -8,16 +8,21 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data and models
+# Data
 data/raw/*
-!data/raw/spam.csv
 data/processed/*
-models/*
 
-# Keep folders
+# Keep data folders
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Models
+models/*
 !models/.gitkeep
+
+# Figures
+reports/figures/*
+!reports/figures/.gitkeep
 
 # System files
 .DS_Store

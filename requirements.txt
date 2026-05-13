@@ -1,7 +1,6 @@
-pandas
 numpy
-scikit-learn
+pandas
 matplotlib
-seaborn
-nltk
-jupyter
+scikit-learn
+notebook
+ipykernel
